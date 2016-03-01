@@ -1,0 +1,42 @@
+@extends('layouts.master')
+
+@section('content')
+
+    <h1>Gallery <a href="{{ url('gallery/create') }}" class="btn btn-primary pull-right btn-sm">Add New Gallery</a></h1>
+    <div class="table">
+        <table class="table table-bordered table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>S.No</th><th>Title</th><th>Foto</th><th>Deskripsi</th><th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            {{-- */$x=0;/* --}}
+            @foreach($gallery as $item)
+                {{-- */$x++;/* --}}
+                <tr>
+                    <td>{{ $x }}</td>
+                    <td><a href="{{ url('gallery', $item->id) }}">{{ $item->title }}</a></td><td>{{ $item->foto }}</td><td>{{ $item->deskripsi }}</td>
+                    <td>
+                        <a href="{{ url('gallery/' . $item->id . '/edit') }}">
+                            <button type="submit" class="btn btn-primary btn-xs">Update</button>
+                        </a>
+                        <a href="{{ url('gallery/' . $item->id) }}">
+                            <button type="submit" class="btn btn-primary btn-xs">Show</button>
+                        </a>
+                        {!! Form::open([
+                            'method'=>'DELETE',
+                            'url' => ['gallery', $item->id],
+                            'style' => 'display:inline'
+                        ]) !!}
+                            {!! Form::submit('Delete', ['class' => 'btn btn-danger btn-xs']) !!}
+                        {!! Form::close() !!}
+                    </td>
+                </tr>
+            @endforeach
+            </tbody>
+        </table>
+        <div class="pagination"> {!! $gallery->render() !!} </div>
+    </div>
+
+@endsection
