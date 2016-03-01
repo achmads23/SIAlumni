@@ -84,9 +84,13 @@ class AuthController extends Controller
             'password' => bcrypt($data['password']),
         ]);
 
-        //$token[0-7] = TanggalBulanTahun;
-        //$token[8-57] = RandomString;
-        //$token[58-end] = idUser;
+        /*
+            PENJELASAN TOKEN
+            $token[0-7] = TanggalBulanTahun;
+            $token[8-57] = RandomString;
+            $token[58-end] = idUser;
+        */
+            
         $token = $current_time . $this->RandomString() . $save->id;
         $user = User::find($save->id);
         $user->token = $token;
