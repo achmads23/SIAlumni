@@ -27,8 +27,8 @@ Route::get('/', function () {
 */
 
 Route::group(['middleware' => 'web'], function () {
-    Route::auth();
-    Route::get('/home', 'HomeController@index');
+    Route::auth();    
     Route::get('/sendEmail', 'HomeController@sendEmail');
     Route::resource('gallery', 'GalleryController');
+    Route::get('/home', 'HomeController@index');
 });
