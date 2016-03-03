@@ -24,11 +24,18 @@
     <link rel="stylesheet" href="{{ URL::asset('font-awesome/css/font-awesome.min.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ URL::asset('css/animate.min.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ URL::asset('css/creative.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ URL::asset('css/agency.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ URL::asset('css/perfect-scrollbar.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ URL::asset('css/main.css') }}" type="text/css">
 
     @yield('cssjsheader')
+    
+      
 </head>
 
 <body id="page-top">
+    <script src="{{ URL::asset('js/perfect-scrollbar.jquery.js')}}"></script>
+    
 
     @include('frontend.template.header')
 
@@ -48,11 +55,17 @@
     <script src="{{ URL::asset('js/jquery.easing.min.js')}}"></script>
     <script src="{{ URL::asset('js/jquery.fittext.js')}}"></script>
     <script src="{{ URL::asset('js/wow.min.js')}}"></script>
+    <script src="{{ URL::asset('js/perfect-scrollbar.jquery.js')}}"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ URL::asset('js/creative.js')}}"></script>
 
     @yield('jsfooter')
+    <script>
+        $(document).ready(function(){
+            $('body').perfectScrollbar(); 
+        })
+    </script>
 </body>
 
 </html>

@@ -15,7 +15,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a class="page-scroll" href="#about">Home</a>
+                    <a class="page-scroll" href="header">Home</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#about">About</a>
@@ -24,16 +24,19 @@
                     <a class="page-scroll" href="#services">News</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#portfolio">Member</a>
+                    <a class="page-scroll" href="#team">Member</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact">Vancancy</a>
+                    <a class="page-scroll" href="#gallery">Gallery</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#vacancy">vacancy</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact"><i class="fa fa-sign-in"></i> Sign In</a>
+                    <a class="page-scroll" href="/login"><i class="fa fa-sign-in"></i> Sign In</a>
                 </li>
             </ul>
         </div>

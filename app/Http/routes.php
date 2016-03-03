@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 /*
 |--------------------------------------------------------------------------
@@ -30,5 +30,5 @@ Route::group(['middleware' => 'web'], function () {
     Route::auth();    
     Route::get('/sendEmail', 'HomeController@sendEmail');
     Route::resource('gallery', 'GalleryController');
-    Route::get('/home', 'HomeController@index');
+    Route::get('/', 'HomeController@index');
 });
