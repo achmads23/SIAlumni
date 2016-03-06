@@ -11,7 +11,7 @@
 
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" >
 
-    <title>SIAlumni | @yield('title') </title>
+    <title>Save Our Earth | @yield('title') </title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}" type="text/css">

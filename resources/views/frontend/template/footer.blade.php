@@ -4,13 +4,13 @@
             <div class="col-md-2">
                 <h4 class="white">Pages</h4>
                 <ul class="_categories">
+                    <li><a href="/about">About</a></li>
                     <li><a href="/contact">Article</a></li>
                     <li><a href="/contact">News</a></li>
+                    <li><a href="/about">Member</a></li>
                     <li><a href="/contact">Gallery</a></li>
                     <li><a href="/contact">Vacancy</a></li>
                     <li><a href="/contact">Bisnis</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/about">Member</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
             </div>
@@ -34,9 +34,9 @@
                 <p class="fontfooter">Connect with us and stay in the loop</p>
                 <p>
                     
-                        <a href="https://fb.com/sialumni" target="_blank" ><i class="fa fa-facebook box"></i></a>
-                        <a href="https://twitter.com/sialumni" target="_blank" ><i class="fa fa-twitter box"></i></a>
-                        <a href="https://instagram.com/sialumni" target="_blank" ><i class="fa fa-instagram box"></i></a>
+                        <a href="https://fb.com/" target="_blank" ><i class="fa fa-facebook box"></i></a>
+                        <a href="https://twitter.com/" target="_blank" ><i class="fa fa-twitter box"></i></a>
+                        <a href="https://instagram.com/" target="_blank" ><i class="fa fa-instagram box"></i></a>
                 </p>
             </div>
             <div class="col-md-4">
@@ -47,11 +47,11 @@
                         <table class="fontfooter">
                             <tr>
                                 <td class="col-md-1"> <i class="fa fa-envelope-o fontfooter"></i></td>
-                                <td> <a href="mailto:achmads123@gmail.com">achmads123@gmail.com</a></td>
+                                <td> <a href="mailto:someone@email.com">someone@email.com</a></td>
                             </tr>
                             <tr>
                                 <td  class="col-md-1"> <i class="fa fa-phone fontfooter"></i></td>
-                                <td> <a href="tel:+6285733287320">+62 857 332 87320</a></td>
+                                <td> <a href="tel:+620000000000">+62 xxx xxx xxxx</a></td>
                             </tr>
                         </table>
                     </div>
@@ -63,7 +63,7 @@
 <section id="copyright">
 <div class="footer-bottom">
     <div class="container text-center">
-        <span >&copy; 2016 <a href="https://Sialumni.com/">SIAlumni</a>, All rights reserved.</span>
+        <span >&copy; 2016 <a href="https://google.co.id/">Save Our Earth</a>, All rights reserved.</span>
     </div>
 </div>
 </section>

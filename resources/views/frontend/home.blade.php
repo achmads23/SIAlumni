@@ -9,9 +9,9 @@ Home
     <div class="header-content">
         <div class="header-content-inner">
             <div class="row">
-                <h1>Good Friends are like stars.</h1>
+                <h1>Save Our Earth</h1>
                 <hr>
-                <p>you dont always see them, but you know they're always there</p>
+                <p>protect our earth today for our children's tomorrow</p>
                 <a href="#about" class="btn btn-success btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
