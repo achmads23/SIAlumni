@@ -24,7 +24,7 @@
                     <a class="page-scroll" href="#article">Article</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#services">News</a>
+                    <a class="page-scroll" href="#news">News</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#team">Member</a>
@@ -33,7 +33,10 @@
                     <a class="page-scroll" href="#gallery">Gallery</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#vacancy">vacancy</a>
+                    <a class="page-scroll" href="#vacancy">Vacancy</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#bisnis">Business</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>

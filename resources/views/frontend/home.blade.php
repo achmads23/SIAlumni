@@ -33,11 +33,405 @@ Home
     </div>
 </section>
 
-<section id="services" class="bg-success">
+<section id="article" class="bg-success">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">At Your Service</h2>
+                <h2 class="section-heading">Article</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-body disablepadding divarticle">
+                        <img src="img/article/1.jpg" class="img-responsive photoarticle" alt="">
+                    </div>
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p class="bodyarticle">Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-body disablepadding divarticle">
+                        <img src="img/article/1.jpeg" class="img-responsive photoarticle" alt="">
+                    </div>
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p class="bodyarticle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-body disablepadding divarticle">
+                        <img src="img/article/3.jpg" class="img-responsive photoarticle" width="100%">
+                    </div>
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p class="bodyarticle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="#" class="btn btn-success btn-xl ">More Article</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="news" class="bg-success green">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading white">News</h2>
+                <hr class="light">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="news">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="panel-body disablepadding photonews">
+                                        <img src="img/news/1.jpg" class="img-responsive photonews" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-8 disablepaddingleft">
+                                    <p class="body-news">Bahan Dapur Ini Jadi Andalan Pamela Anderson agar Kulit Awet Muda</p>
+                                    <div class="timestamp">
+                                        25 Januari 2015 13:00:00
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="news">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="panel-body disablepadding photonews">
+                                        <img src="img/news/2.jpg" class="img-responsive photonews" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-8 disablepaddingleft">
+                                    <p class="body-news">Suka Kucing dan Mau Dibayar Rp. 100 Ribu per Jam? Jadilah Pegawai Kafe Ini</p>
+                                    <div class="timestamp">
+                                        25 Januari 2015 13:00:00
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="news">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="panel-body disablepadding photonews">
+                                        <img src="img/news/3.jpg" class="img-responsive photonews" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-8 disablepaddingleft">
+                                    <p class="body-news">Kesepian di Tahun Pertama Pimpin Batang, Bupati Yoyok: Mending Perang Lagi</p>
+                                    <div class="timestamp">
+                                        25 Januari 2015 13:00:00
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="news">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="panel-body disablepadding photonews">
+                                        <img src="img/news/1.jpg" class="img-responsive photonews" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-8 disablepaddingleft">
+                                    <p class="body-news">Bahan Dapur Ini Jadi Andalan Pamela Anderson agar Kulit Awet Muda</p>
+                                    <div class="timestamp">
+                                        25 Januari 2015 13:00:00
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="news">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="panel-body disablepadding photonews">
+                                        <img src="img/news/2.jpg" class="img-responsive photonews" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-8 disablepaddingleft">
+                                    <p class="body-news">Suka Kucing dan Mau Dibayar Rp. 100 Ribu per Jam? Jadilah Pegawai Kafe Ini</p>
+                                    <div class="timestamp">
+                                        25 Januari 2015 13:00:00
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="news">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="panel-body disablepadding photonews">
+                                        <img src="img/news/3.jpg" class="img-responsive photonews" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-md-8 disablepaddingleft">
+                                    <p class="body-news">Kesepian di Tahun Pertama Pimpin Batang, Bupati Yoyok: Mending Perang Lagi</p>
+                                    <div class="timestamp">
+                                        25 Januari 2015 13:00:00
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <a href="#" class="btn btn-success btn-xl ">More news</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <section id="team" class="bg-success">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Member</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/member/people.png" class="img-responsive img-circle" alt="">
+                        <h4>Kay Garland</h4>
+                        <p>2012</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/member/people.png" class="img-responsive img-circle" alt="">
+                        <h4>Larry Parker</h4>
+                        <p>2012</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/member/people.png" class="img-responsive img-circle" alt="">
+                        <h4>Diana Pertersen</h4>
+                        <p>2012</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="img/member/people.png" class="img-responsive img-circle" alt="">
+                        <h4>Diana Pertersen</h4>
+                        <p>2012</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="#" class="btn btn-success btn-xl ">More Member</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="gallery" class="bg-success green">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading white">Gallery</h2>
+                    <hr class="light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 gallery-item">
+                    <a href="#galleryModal1" class="gallery-link" data-toggle="modal">
+                        <div class="gallery-hover">
+                            <div class="gallery-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/gallery/1.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="gallery-caption">
+                        <h4>Round Icons</h4>
+                        <p>Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 gallery-item">
+                    <a href="#galleryModal2" class="gallery-link" data-toggle="modal">
+                        <div class="gallery-hover">
+                            <div class="gallery-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/gallery/2.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="gallery-caption">
+                        <h4>Startup Framework</h4>
+                        <p>Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 gallery-item">
+                    <a href="#galleryModal3" class="gallery-link" data-toggle="modal">
+                        <div class="gallery-hover">
+                            <div class="gallery-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/gallery/3.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="gallery-caption">
+                        <h4>Treehouse</h4>
+                        <p>Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 gallery-item">
+                    <a href="#galleryModal4" class="gallery-link" data-toggle="modal">
+                        <div class="gallery-hover">
+                            <div class="gallery-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/gallery/4.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="gallery-caption">
+                        <h4>Golden</h4>
+                        <p>Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 gallery-item">
+                    <a href="#galleryModal5" class="gallery-link" data-toggle="modal">
+                        <div class="gallery-hover">
+                            <div class="gallery-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/gallery/1.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="gallery-caption">
+                        <h4>Escape</h4>
+                        <p>Graphic Design</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 gallery-item">
+                    <a href="#galleryModal6" class="gallery-link" data-toggle="modal">
+                        <div class="gallery-hover">
+                            <div class="gallery-hover-content">
+                                <i class="fa fa-search fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/gallery/2.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="gallery-caption">
+                        <h4>Dreams</h4>
+                        <p>Graphic Design</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <a href="#" class="btn btn-success btn-xl ">More Gallery</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<section id="vacancy" class="bg-success">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Vacancy</h2>
                 <hr class="primary">
             </div>
         </div>
@@ -76,201 +470,50 @@ Home
     </div>
 </section>
 
- <section id="team" class="bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Member</h2>
-                    <hr class="primary">
-                </div>
+<section id="bisnis" class="bg-success">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Business</h2>
+                <hr class="primary">
             </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="img/member/people.png" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="white">2012</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="img/member/people.png" class="img-responsive img-circle" alt="">
-                        <h4>Larry Parker</h4>
-                        <p class="white">2006</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="img/member/people.png" class="img-responsive img-circle" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="white">2006</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="img/member/people.png" class="img-responsive img-circle" alt="">
-                        <h4>Diana Pertersen</h4>
-                        <p class="white">2006</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <a href="#" class="btn btn-success btn-xl ">More Member</a>
-                    </div>
-                </div>
-        </div>
-    </section>
-
-<section id="gallery" class="bg-success">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Gallery</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 gallery-item">
-                    <a href="#galleryModal1" class="gallery-link" data-toggle="modal">
-                        <div class="gallery-hover">
-                            <div class="gallery-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/gallery/1.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="gallery-caption">
-                        <h4>Round Icons</h4>
-                        <p class="white">Graphic Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 gallery-item">
-                    <a href="#galleryModal2" class="gallery-link" data-toggle="modal">
-                        <div class="gallery-hover">
-                            <div class="gallery-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/gallery/2.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="gallery-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="white">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 gallery-item">
-                    <a href="#galleryModal3" class="gallery-link" data-toggle="modal">
-                        <div class="gallery-hover">
-                            <div class="gallery-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/gallery/3.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="gallery-caption">
-                        <h4>Treehouse</h4>
-                        <p class="white">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 gallery-item">
-                    <a href="#galleryModal4" class="gallery-link" data-toggle="modal">
-                        <div class="gallery-hover">
-                            <div class="gallery-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/gallery/4.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="gallery-caption">
-                        <h4>Golden</h4>
-                        <p class="white">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 gallery-item">
-                    <a href="#galleryModal5" class="gallery-link" data-toggle="modal">
-                        <div class="gallery-hover">
-                            <div class="gallery-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/gallery/1.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="gallery-caption">
-                        <h4>Escape</h4>
-                        <p class="white">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 gallery-item">
-                    <a href="#galleryModal6" class="gallery-link" data-toggle="modal">
-                        <div class="gallery-hover">
-                            <div class="gallery-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/gallery/2.jpg" class="img-responsive" alt="">
-                    </a>
-                    <div class="gallery-caption">
-                        <h4>Dreams</h4>
-                        <p class="white">Website Design</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <a href="#" class="btn btn-success btn-xl ">More Gallery</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-<!-- <aside class="bg-dark">
-    <div class="container text-center">
-        <div class="call-to-action">
-            
         </div>
     </div>
-</aside> -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+                    <h3>Sturdy Templates</h3>
+                    <p class="white">Our templates are updated regularly so they don't break.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                    <h3>Ready to Ship</h3>
+                    <p class="white">You can use this theme as is, or you can make changes!</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                    <h3>Up to Date</h3>
+                    <p class="white">We update dependencies to keep things fresh.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                    <h3>Made with Love</h3>
+                    <p class="white">You have to make your websites with love these days!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <div class="gallery-modal modal fade scrollbar" id="galleryModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <script>
-        $(document).ready(function(){
-            $('body').perfectScrollbar(); 
-        })
-    </script>
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -442,6 +685,63 @@ Home
         $(document).ready(function(){
             $('.scrollbar').perfectScrollbar(); 
         })
+    </script>
+
+    <script>
+        a = $(".photonews").width();
+        $(".photonews").css("height",a);
+        console.log(a);
+    </script>
+
+    <script>
+        a = $(".news").width();
+        height = a * 20 / 100;
+        $(".news").css("height",height);
+        $(".news").css("overflow","hidden");
+    </script>
+
+    <script>
+        // $(window).resize(function () {
+        //     a = $(".photonews").width();
+        //     height = a * 60 / 100;
+        //     $(".photonews").css("height",a);
+        // });
+    </script>
+
+    <script>
+        a = $(".divarticle").width();
+        height = a * 60 / 100;
+        $(".divarticle").css("height",height);
+
+        $('.photoarticle').width(a); // Units are assumed to be pixels
+        $('.photoarticle').height(height);
+
+        var heights = $(".bodyarticle").map(function ()
+        {
+            return $(this).height();
+        }).get(),
+
+        maxHeight = Math.max.apply(null, heights);
+        $('.bodyarticle').height(maxHeight);
+    </script>
+
+    <script>
+        $(window).resize(function () {
+            a = $(".divarticle").width();
+            height = a * 60 / 100;
+            $(".divarticle").css("height",height);
+
+            $('.photoarticle').width(a); // Units are assumed to be pixels
+            $('.photoarticle').height(height);
+            
+            var heights = $(".bodyarticle").map(function ()
+            {
+                return $(this).height();
+            }).get(),
+
+            maxHeight = Math.max.apply(null, heights);
+            $('.bodyarticle').height(maxHeight);
+            });
     </script>
 @stop
 
