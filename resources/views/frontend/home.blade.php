@@ -680,7 +680,7 @@ Home
     </div>
 
     <ul class="pull-right scroll-top">
-      <li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+      <li><a href="#"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
     </ul>
 @stop
 
@@ -707,10 +707,6 @@ Home
     <script>
          a = $(".scroll-top").width();
         $(".scroll-top").css("height",a);
-
-        $('.scroll-top').click(function(){
-          $('body,html').animate({scrollTop:0},1000);
-        })
     </script>
 
     <script>
@@ -746,7 +742,7 @@ Home
 
             maxHeight = Math.max.apply(null, heights);
             $('.bodyarticle').height(maxHeight);
-            });
+        });
     </script>
 
 
@@ -756,7 +752,6 @@ Home
                 windows = $(window).height();
                 var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-                /* If the object is completely visible in the window, fade it in */
                 if( bottom_of_window > windows + 100 ){
                     $(".scroll-top").animate({'opacity':'1'},0);
                 } else {
