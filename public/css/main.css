@@ -91,3 +91,21 @@ input[type="text"].subscriber{
 .green{
 	background-color: #00A50E;
 }
+
+.scroll-top {
+   position:fixed;
+   bottom:1%;
+   right:20px;
+   z-index:100;
+   background: black;
+   font-size:25px;
+   border-radius:3px;
+   width:42px;
+   padding:0px;
+   padding-top:6px;
+   text-align: center;
+   opacity: 0;
+}
+.scroll-top a:link,.scroll-top a:visited {
+  color:white;
+} 

@@ -113,12 +113,12 @@ Home
                     <div class="panel-body">
                         <div class="news">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-xs-4">
                                     <div class="panel-body disablepadding photonews">
                                         <img src="img/news/1.jpg" class="img-responsive photonews" alt="">
                                     </div>
                                 </div>
-                                <div class="col-md-8 disablepaddingleft">
+                                <div class="col-xs-8 disablepaddingleft">
                                     <p class="body-news">Bahan Dapur Ini Jadi Andalan Pamela Anderson agar Kulit Awet Muda</p>
                                     <div class="timestamp">
                                         25 Januari 2015 13:00:00
@@ -134,12 +134,12 @@ Home
                     <div class="panel-body">
                         <div class="news">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-xs-4">
                                     <div class="panel-body disablepadding photonews">
                                         <img src="img/news/2.jpg" class="img-responsive photonews" alt="">
                                     </div>
                                 </div>
-                                <div class="col-md-8 disablepaddingleft">
+                                <div class="col-xs-8 disablepaddingleft">
                                     <p class="body-news">Suka Kucing dan Mau Dibayar Rp. 100 Ribu per Jam? Jadilah Pegawai Kafe Ini</p>
                                     <div class="timestamp">
                                         25 Januari 2015 13:00:00
@@ -155,12 +155,12 @@ Home
                     <div class="panel-body">
                         <div class="news">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-xs-4">
                                     <div class="panel-body disablepadding photonews">
                                         <img src="img/news/3.jpg" class="img-responsive photonews" alt="">
                                     </div>
                                 </div>
-                                <div class="col-md-8 disablepaddingleft">
+                                <div class="col-xs-8 disablepaddingleft">
                                     <p class="body-news">Kesepian di Tahun Pertama Pimpin Batang, Bupati Yoyok: Mending Perang Lagi</p>
                                     <div class="timestamp">
                                         25 Januari 2015 13:00:00
@@ -177,12 +177,12 @@ Home
                     <div class="panel-body">
                         <div class="news">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-xs-4">
                                     <div class="panel-body disablepadding photonews">
                                         <img src="img/news/1.jpg" class="img-responsive photonews" alt="">
                                     </div>
                                 </div>
-                                <div class="col-md-8 disablepaddingleft">
+                                <div class="col-xs-8 disablepaddingleft">
                                     <p class="body-news">Bahan Dapur Ini Jadi Andalan Pamela Anderson agar Kulit Awet Muda</p>
                                     <div class="timestamp">
                                         25 Januari 2015 13:00:00
@@ -198,12 +198,12 @@ Home
                     <div class="panel-body">
                         <div class="news">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-xs-4">
                                     <div class="panel-body disablepadding photonews">
                                         <img src="img/news/2.jpg" class="img-responsive photonews" alt="">
                                     </div>
                                 </div>
-                                <div class="col-md-8 disablepaddingleft">
+                                <div class="col-xs-8 disablepaddingleft">
                                     <p class="body-news">Suka Kucing dan Mau Dibayar Rp. 100 Ribu per Jam? Jadilah Pegawai Kafe Ini</p>
                                     <div class="timestamp">
                                         25 Januari 2015 13:00:00
@@ -219,12 +219,12 @@ Home
                     <div class="panel-body">
                         <div class="news">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-xs-4">
                                     <div class="panel-body disablepadding photonews">
                                         <img src="img/news/3.jpg" class="img-responsive photonews" alt="">
                                     </div>
                                 </div>
-                                <div class="col-md-8 disablepaddingleft">
+                                <div class="col-xs-8 disablepaddingleft">
                                     <p class="body-news">Kesepian di Tahun Pertama Pimpin Batang, Bupati Yoyok: Mending Perang Lagi</p>
                                     <div class="timestamp">
                                         25 Januari 2015 13:00:00
@@ -678,6 +678,10 @@ Home
             </div>
         </div>
     </div>
+
+    <ul class="pull-right scroll-top">
+      <li><a href="#" title="Scroll to top"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+    </ul>
 @stop
 
 @section('jsfooter')
@@ -701,11 +705,12 @@ Home
     </script>
 
     <script>
-        // $(window).resize(function () {
-        //     a = $(".photonews").width();
-        //     height = a * 60 / 100;
-        //     $(".photonews").css("height",a);
-        // });
+         a = $(".scroll-top").width();
+        $(".scroll-top").css("height",a);
+
+        $('.scroll-top').click(function(){
+          $('body,html').animate({scrollTop:0},1000);
+        })
     </script>
 
     <script>
@@ -742,6 +747,23 @@ Home
             maxHeight = Math.max.apply(null, heights);
             $('.bodyarticle').height(maxHeight);
             });
+    </script>
+
+
+    <script>
+        $(window).scroll( function(){
+            $('#about').each( function(i){
+                windows = $(window).height();
+                var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                /* If the object is completely visible in the window, fade it in */
+                if( bottom_of_window > windows + 100 ){
+                    $(".scroll-top").animate({'opacity':'1'},0);
+                } else {
+                    $(".scroll-top").animate({'opacity':'0'},0);
+                }
+            }); 
+        });
     </script>
 @stop
 
