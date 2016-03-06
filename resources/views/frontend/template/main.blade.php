@@ -61,11 +61,6 @@
     <script src="{{ URL::asset('js/creative.js')}}"></script>
 
     @yield('jsfooter')
-    <script>
-        $(document).ready(function(){
-            $('body').perfectScrollbar(); 
-        })
-    </script>
 </body>
 
 </html>

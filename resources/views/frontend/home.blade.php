@@ -679,18 +679,12 @@ Home
         </div>
     </div>
 
-    <ul class="pull-right scroll-top">
+    <ul class="pull-right scrolltop">
       <li><a href="#"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
     </ul>
 @stop
 
 @section('jsfooter')
-    <script>
-        $(document).ready(function(){
-            $('.scrollbar').perfectScrollbar(); 
-        })
-    </script>
-
     <script>
         a = $(".photonews").width();
         $(".photonews").css("height",a);
@@ -705,8 +699,11 @@ Home
     </script>
 
     <script>
-         a = $(".scroll-top").width();
-        $(".scroll-top").css("height",a);
+
+        $('.scrolltop').click(function(){
+          $('body','html').animate({scrollTop:0},1000);
+        })
+
     </script>
 
     <script>
@@ -753,9 +750,9 @@ Home
                 var bottom_of_window = $(window).scrollTop() + $(window).height();
 
                 if( bottom_of_window > windows + 100 ){
-                    $(".scroll-top").animate({'opacity':'1'},0);
+                    $(".scrolltop").animate({'opacity':'1'},0);
                 } else {
-                    $(".scroll-top").animate({'opacity':'0'},0);
+                    $(".scrolltop").animate({'opacity':'0'},0);
                 }
             }); 
         });
