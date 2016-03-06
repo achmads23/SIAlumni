@@ -679,7 +679,7 @@ Home
         </div>
     </div>
 
-    <ul class="pull-right scrolltop">
+    <ul class="scroll-top">
       <li><a href="#"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
     </ul>
 @stop
@@ -695,15 +695,13 @@ Home
         a = $(".news").width();
         height = a * 20 / 100;
         $(".news").css("height",height);
-        $(".news").css("overflow","hidden");
+        $(".news").css("overflow");
     </script>
 
     <script>
-
-        $('.scrolltop').click(function(){
+        $('.scroll-top').click(function(){
           $('body','html').animate({scrollTop:0},1000);
         })
-
     </script>
 
     <script>
@@ -750,9 +748,9 @@ Home
                 var bottom_of_window = $(window).scrollTop() + $(window).height();
 
                 if( bottom_of_window > windows + 100 ){
-                    $(".scrolltop").animate({'opacity':'1'},0);
+                    $(".scroll-top").animate({'opacity':'1'},0);
                 } else {
-                    $(".scrolltop").animate({'opacity':'0'},0);
+                    $(".scroll-top").animate({'opacity':'0'},0);
                 }
             }); 
         });

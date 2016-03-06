@@ -92,7 +92,7 @@ input[type="text"].subscriber{
 	background-color: #00A50E;
 }
 
-.scrolltop {
+.scroll-top {
    position:fixed;
    text-align: center;
    bottom:0;
@@ -107,6 +107,19 @@ input[type="text"].subscriber{
    padding-left:2px;
    opacity: 0;
 }
-.scrolltop a:link,.scrolltop a:visited {
+.scroll-top a:link,.scroll-top a:visited {
   color:white;
 } 
+
+@media (max-width: 768px) {
+.scroll-top{
+	bottom:5%;
+   	right:10%;
+
+}
+
+@media (max-width: 400px) {
+.scroll-top{
+	bottom:5%;
+   	right:10%;
+}
