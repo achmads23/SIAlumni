@@ -82,6 +82,10 @@ input[type="text"].subscriber{
 	margin-bottom: 5px;
 }
 
+.justify{
+  text-align:justify;
+}
+
 .namaperusahaan{
   margin-bottom: 10px;
 }

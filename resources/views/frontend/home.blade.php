@@ -635,7 +635,7 @@ Home
                         <h4>Naztama Bumi Raya</h4>
                     </div>
                     <div class="panel-body">
-                        <p class="bodyarticle">Naztama Bumi Raya berdiri sebagai konsultan lingkungan yang berkomitmen tinggi untuk memberikan solusi terbaik terhadap setiap permasalahan lingkungan yang ada. Responsif dan cepat merupakan prinsip kami dalam bekerja.</p>
+                        <p class="bodyarticle justify">Naztama Bumi Raya berdiri sebagai konsultan lingkungan yang berkomitmen tinggi untuk memberikan solusi terbaik terhadap setiap permasalahan lingkungan yang ada. Responsif dan cepat merupakan prinsip kami dalam bekerja.</p>
                         <a href="#" class="btn btn-default">Read More</a>
                     </div>
                 </div>
@@ -649,7 +649,7 @@ Home
                         <h4>PT. UNILAB PERDANA</h4>
                     </div>
                     <div class="panel-body">
-                        <p class="bodyarticle">PT. UNILAB PERDANA didirikan pada tanggal 30 oktober 1990, merupakan laboratorium swasta pertama yang memberikan jasa layanan bidang lingkungan hidup. Pada tanggal 21 Januari 2004 mendapat sertifikat sebagai Laboratorium Penguji dari Komite Akreditasi Nasional (KAN) No.LP-195-IDN</p>
+                        <p class="bodyarticle justify">PT. UNILAB PERDANA didirikan pada tanggal 30 oktober 1990, merupakan laboratorium swasta pertama yang memberikan jasa layanan bidang lingkungan hidup. Pada tanggal 21 Januari 2004 mendapat sertifikat sebagai Laboratorium Penguji dari Komite Akreditasi Nasional (KAN) No.LP-195-IDN</p>
                         <a href="#" class="btn btn-default">Read More</a>
                     </div>
                 </div>
@@ -663,7 +663,7 @@ Home
                         <h4>PT Tjakrindo Mas</h4>
                     </div>
                     <div class="panel-body">
-                        <p class="bodyarticle">PT Tjakrindo Mas always strives to fulfill the needs and to give satisfaction to the customers with good quality products and punctual delivery. Our rapid and steady business grows up due to the management’s observation and innovation in overseeing strategic steps to face local and product quality enhancement that affects customer’s satisfaction.</p>
+                        <p class="bodyarticle justify">PT Tjakrindo Mas always strives to fulfill the needs and to give satisfaction to the customers with good quality products and punctual delivery. Our rapid and steady business grows up due to the management’s observation and innovation in overseeing strategic steps to face local and product quality enhancement that affects customer’s satisfaction.</p>
                         <a href="#" class="btn btn-default">Read More</a>
                     </div>
                 </div>
