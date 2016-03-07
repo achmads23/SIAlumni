@@ -431,82 +431,247 @@ Home
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Vacancy</h2>
+                <h2 class="section-heading">Job Vacancy</h2>
                 <hr class="primary">
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                    <h3>Sturdy Templates</h3>
-                    <p class="white">Our templates are updated regularly so they don't break.</p>
+             <div class="col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="jobvacancy">
+                            <div class="row">
+                                <div class="col-xs-8">
+                                    <h3 class="body-news disablemargin">Safety And Health Officer</h3>
+                                    <h4 class="body-news disablemargin namaperusahaan">PARAGON MASTERY SDN BHD</h4>
+                                    <div class="locationvacancy">
+                                        <table>
+                                            <tr>
+                                                <td class="col-md-1">
+                                                    <i class="fa fa-money"></i>
+                                                </td>
+                                                <td>
+                                                    5.000.000 IDR to 10.000.000
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-md-1">
+                                                    <i class="fa fa-map-marker"></i>
+                                                </td>
+                                                <td>
+                                                    Surabaya, Jawa Timur, Indonesia
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <p class="body-news fontvacancy">Promote safety awareness thoughout the duration of the construction and ensure that it is observed and adhered by all relevant parties at all times</h3>
+                                    <div class="timestamp">
+                                        25 Januari 2015 13:00:00
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 logovacancy">
+                                    <div class="panel-body disablepadding">
+                                        <img src="img/vacancy/1.jpg" class="img-responsive photovacancy" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="jobvacancy">
+                            <div class="row">
+                                <div class="col-xs-8">
+                                    <h3 class="body-news disablemargin">SAFETY &amp; HEALTH MANAGER</h3>
+                                    <h4 class="body-news disablemargin namaperusahaan">Gadang Engineering (M) Sdn Bhd</h4>
+                                    <div class="locationvacancy">
+                                        <table>
+                                            <tr>
+                                                <td class="col-md-1">
+                                                    <i class="fa fa-money"></i>
+                                                </td>
+                                                <td>
+                                                    5.000.000 IDR to 10.000.000
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-md-1">
+                                                    <i class="fa fa-map-marker"></i>
+                                                </td>
+                                                <td>
+                                                    Surabaya, Jawa Timur, Indonesia
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <p class="body-news fontvacancy">Responsibilities : Responsible for planning, formulating and enforcing safety policies and regulations. Investigate industrial accidents to determine causes and make recommendations to management for making working conditions as safe as possible.</h3>
+                                    <div class="timestamp">
+                                        25 Januari 2015 13:00:00
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 logovacancy">
+                                    <div class="panel-body disablepadding">
+                                        <img src="img/vacancy/2.jpg" class="img-responsive photovacancy" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                    <h3>Ready to Ship</h3>
-                    <p class="white">You can use this theme as is, or you can make changes!</p>
+            <div class="col-md-6 ">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="jobvacancy">
+                            <div class="row">
+                                <div class="col-xs-8">
+                                    <h3 class="body-news disablemargin">REGULATORY LIASION OFFICER</h3>
+                                    <h4 class="body-news disablemargin namaperusahaan">KNM Process Systems Sdn. Bhd.</h4>
+                                    <div class="locationvacancy">
+                                        <table>
+                                            <tr>
+                                                <td class="col-md-1">
+                                                    <i class="fa fa-money"></i>
+                                                </td>
+                                                <td>
+                                                    5.000.000 IDR to 10.000.000
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-md-1">
+                                                    <i class="fa fa-map-marker"></i>
+                                                </td>
+                                                <td>
+                                                    Surabaya, Jawa Timur, Indonesia
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <p class="body-news fontvacancy">RESPONSIBILITIES : At least 15 years working experience with application of licenses with Malaysia authority e.g. DOSH, NIOSH, CIDB, MITI, MIDA</h3>
+                                    <div class="timestamp">
+                                        25 Januari 2015 13:00:00
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 logovacancy">
+                                    <div class="panel-body disablepadding">
+                                        <img src="img/vacancy/4.jpg" class="img-responsive photovacancy" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="jobvacancy">
+                            <div class="row">
+                                <div class="col-xs-8">
+                                    <h3 class="body-news disablemargin">Safety Product Specialist (Technical Support)</h3>
+                                    <h4 class="body-news disablemargin namaperusahaan">Am Sales & Marketing Sdn Bhd</h4>
+                                    <div class="locationvacancy">
+                                        <table>
+                                            <tr>
+                                                <td class="col-md-1">
+                                                    <i class="fa fa-money"></i>
+                                                </td>
+                                                <td>
+                                                    5.000.000 IDR to 10.000.000
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="col-md-1">
+                                                    <i class="fa fa-map-marker"></i>
+                                                </td>
+                                                <td>
+                                                    Surabaya, Jawa Timur, Indonesia
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <p class="body-news fontvacancy">Responsibilities: Technical support to sales team on products. Collaborates with Sales and Marketing teams to deliver training programs / modules</h3>
+                                    <div class="timestamp">
+                                        25 Januari 2015 13:00:00
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 logovacancy">
+                                    <div class="panel-body disablepadding">
+                                        <img src="img/vacancy/3.jpg" class="img-responsive photovacancy" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                    <h3>Up to Date</h3>
-                    <p class="white">We update dependencies to keep things fresh.</p>
+            <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <a href="#" class="btn btn-success btn-xl ">More Job Vacancy</a>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3>Made with Love</h3>
-                    <p class="white">You have to make your websites with love these days!</p>
-                </div>
-            </div>
         </div>
     </div>
 </section>
 
-<section id="bisnis" class="bg-success">
+<section id="bisnis" class="bg-success green">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Business</h2>
-                <hr class="primary">
+                <hr class="light">
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                    <h3>Sturdy Templates</h3>
-                    <p class="white">Our templates are updated regularly so they don't break.</p>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-body  divbusiness">
+                        <img src="img/vacancy/7.png" class="img-responsive photobusiness">
+                    </div>
+                    <div class="panel-heading">
+                        <h4>Naztama Bumi Raya</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p class="bodyarticle">Naztama Bumi Raya berdiri sebagai konsultan lingkungan yang berkomitmen tinggi untuk memberikan solusi terbaik terhadap setiap permasalahan lingkungan yang ada. Responsif dan cepat merupakan prinsip kami dalam bekerja.</p>
+                        <a href="#" class="btn btn-default">Read More</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                    <h3>Ready to Ship</h3>
-                    <p class="white">You can use this theme as is, or you can make changes!</p>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-body  divbusiness">
+                        <img src="img/vacancy/6.png" class="img-responsive photobusiness">
+                    </div>
+                    <div class="panel-heading">
+                        <h4>PT. UNILAB PERDANA</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p class="bodyarticle">PT. UNILAB PERDANA didirikan pada tanggal 30 oktober 1990, merupakan laboratorium swasta pertama yang memberikan jasa layanan bidang lingkungan hidup. Pada tanggal 21 Januari 2004 mendapat sertifikat sebagai Laboratorium Penguji dari Komite Akreditasi Nasional (KAN) No.LP-195-IDN</p>
+                        <a href="#" class="btn btn-default">Read More</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                    <h3>Up to Date</h3>
-                    <p class="white">We update dependencies to keep things fresh.</p>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-body  divbusiness">
+                        <img src="img/vacancy/5.png" class="img-responsive photobusiness">
+                    </div>
+                    <div class="panel-heading">
+                        <h4>PT Tjakrindo Mas</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p class="bodyarticle">PT Tjakrindo Mas always strives to fulfill the needs and to give satisfaction to the customers with good quality products and punctual delivery. Our rapid and steady business grows up due to the management’s observation and innovation in overseeing strategic steps to face local and product quality enhancement that affects customer’s satisfaction.</p>
+                        <a href="#" class="btn btn-default">Read More</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3>Made with Love</h3>
-                    <p class="white">You have to make your websites with love these days!</p>
+        
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a href="#" class="btn btn-success btn-xl ">More Business</a>
                 </div>
             </div>
         </div>
@@ -689,6 +854,12 @@ Home
         a = $(".photonews").width();
         $(".photonews").css("height",a);
         console.log(a);
+
+        a = $(".logovacancy").width();
+        // b = $(".logovacancy").height();
+        $(".photovacancy").css("width",a);
+        $(".photovacancy").css("text-align","right");
+        console.log(a);
     </script>
 
     <script>
@@ -712,6 +883,35 @@ Home
         $('.photoarticle').width(a); // Units are assumed to be pixels
         $('.photoarticle').height(height);
 
+        height = a * 50 / 100;
+        $(".divbusiness").css("height",height);
+
+        padd = $(".divbusiness").css("padding");
+        var pad = padd.split("p");
+        console.log(Number(pad[0]));
+
+        var $img = $('.photobusiness');
+        $img.on('load', function(){
+            h = $(this).height();
+            w = $(this).width();
+            tinggigambar = Number(height) - Number(pad[0]);
+            if(h > height){
+                $(this).css("height",tinggigambar);
+                w = $(this).width();
+                $(this).css("padding-bottom",Number(pad[0]));
+            } else {
+                paddingtop = ((Number(height) - Number(h)) / 2 ) - (Number(pad[0]));
+                $(this).css("padding-top",paddingtop);
+            }
+            width = Number(a) - (Number(pad[0])*2);
+            if(w < width){
+                paddingleft = (Number(width) - Number(w)) /2;
+                $(this).parent().css("margin-left",paddingleft);
+            };
+        });
+
+        
+
         var heights = $(".bodyarticle").map(function ()
         {
             return $(this).height();
@@ -729,7 +929,7 @@ Home
 
             $('.photoarticle').width(a); // Units are assumed to be pixels
             $('.photoarticle').height(height);
-            
+
             var heights = $(".bodyarticle").map(function ()
             {
                 return $(this).height();

@@ -82,10 +82,24 @@ input[type="text"].subscriber{
 	margin-bottom: 5px;
 }
 
+.namaperusahaan{
+  margin-bottom: 10px;
+}
+
 .timestamp{
 	text-align: left;
 	font-size: 11px;
 	color:#BFBFBF;
+}
+
+.locationvacancy{
+ text-align: left;
+  font-size: 11px;
+  color:black;
+  margin-bottom: 10px; 
+}
+.fontvacancy{
+  font-size: 12px;
 }
 
 .green{
