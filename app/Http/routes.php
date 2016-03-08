@@ -31,4 +31,6 @@ Route::group(['middleware' => 'web'], function () {
     Route::get('/sendEmail', 'HomeController@sendEmail');
     Route::resource('gallery', 'GalleryController');
     Route::get('/', 'HomeController@index');
+    Route::get('/member', 'HomeController@member');
+    Route::get('/article', 'HomeController@article');
 });

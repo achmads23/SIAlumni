@@ -1,7 +1,7 @@
 @extends('frontend.template.main')
 
 @section('title')
-Home
+<?php echo $title;?>
 @stop
 
 @section('toppage')
@@ -90,7 +90,7 @@ Home
 
         <div class="row">
             <div class="col-lg-12 text-center">
-                <a href="#" class="btn btn-success btn-xl ">More Article</a>
+                <a href="article" class="btn btn-success btn-xl ">More Article</a>
             </div>
         </div>
     </div>
@@ -318,7 +318,7 @@ Home
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="#" class="btn btn-success btn-xl ">More Member</a>
+                    <a href="member" class="btn btn-success btn-xl ">More Member</a>
                 </div>
             </div>
         </div>
@@ -635,7 +635,7 @@ Home
                         <h4>Naztama Bumi Raya</h4>
                     </div>
                     <div class="panel-body">
-                        <p class="bodyarticle justify">Naztama Bumi Raya berdiri sebagai konsultan lingkungan yang berkomitmen tinggi untuk memberikan solusi terbaik terhadap setiap permasalahan lingkungan yang ada. Responsif dan cepat merupakan prinsip kami dalam bekerja.</p>
+                        <p class="bodybusiness justify">Naztama Bumi Raya berdiri sebagai konsultan lingkungan yang berkomitmen tinggi untuk memberikan solusi terbaik terhadap setiap permasalahan lingkungan yang ada. Responsif dan cepat merupakan prinsip kami dalam bekerja.</p>
                         <a href="#" class="btn btn-default">Read More</a>
                     </div>
                 </div>
@@ -649,7 +649,7 @@ Home
                         <h4>PT. UNILAB PERDANA</h4>
                     </div>
                     <div class="panel-body">
-                        <p class="bodyarticle justify">PT. UNILAB PERDANA didirikan pada tanggal 30 oktober 1990, merupakan laboratorium swasta pertama yang memberikan jasa layanan bidang lingkungan hidup. Pada tanggal 21 Januari 2004 mendapat sertifikat sebagai Laboratorium Penguji dari Komite Akreditasi Nasional (KAN) No.LP-195-IDN</p>
+                        <p class="bodybusiness justify">PT. UNILAB PERDANA didirikan pada tanggal 30 oktober 1990, merupakan laboratorium swasta pertama yang memberikan jasa layanan bidang lingkungan hidup. Pada tanggal 21 Januari 2004 mendapat sertifikat sebagai Laboratorium Penguji dari Komite Akreditasi Nasional (KAN) No.LP-195-IDN</p>
                         <a href="#" class="btn btn-default">Read More</a>
                     </div>
                 </div>
@@ -663,7 +663,7 @@ Home
                         <h4>PT Tjakrindo Mas</h4>
                     </div>
                     <div class="panel-body">
-                        <p class="bodyarticle justify">PT Tjakrindo Mas always strives to fulfill the needs and to give satisfaction to the customers with good quality products and punctual delivery. Our rapid and steady business grows up due to the management’s observation and innovation in overseeing strategic steps to face local and product quality enhancement that affects customer’s satisfaction.</p>
+                        <p class="bodybusiness justify">PT Tjakrindo Mas always strives to fulfill the needs and to give satisfaction to the customers with good quality products and punctual delivery. Our rapid and steady business grows up due to the management’s observation and innovation in overseeing strategic steps to face local and product quality enhancement that affects customer’s satisfaction.</p>
                         <a href="#" class="btn btn-default">Read More</a>
                     </div>
                 </div>
@@ -843,10 +843,6 @@ Home
             </div>
         </div>
     </div>
-
-    <ul class="scroll-top">
-      <li><a href="#"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
-    </ul>
 @stop
 
 @section('jsfooter')
@@ -867,12 +863,6 @@ Home
         height = a * 20 / 100;
         $(".news").css("height",height);
         $(".news").css("overflow");
-    </script>
-
-    <script>
-        $('.scroll-top').click(function(){
-          $('body','html').animate({scrollTop:0},1000);
-        })
     </script>
 
     <script>
@@ -919,6 +909,14 @@ Home
 
         maxHeight = Math.max.apply(null, heights);
         $('.bodyarticle').height(maxHeight);
+
+        var heights = $(".bodybusiness").map(function ()
+        {
+            return $(this).height();
+        }).get(),
+
+        maxHeight = Math.max.apply(null, heights);
+        $('.bodybusiness').height(maxHeight);
     </script>
 
     <script>
@@ -941,20 +939,7 @@ Home
     </script>
 
 
-    <script>
-        $(window).scroll( function(){
-            $('#about').each( function(i){
-                windows = $(window).height();
-                var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-                if( bottom_of_window > windows + 100 ){
-                    $(".scroll-top").animate({'opacity':'1'},0);
-                } else {
-                    $(".scroll-top").animate({'opacity':'0'},0);
-                }
-            }); 
-        });
-    </script>
+    
 @stop
 
     

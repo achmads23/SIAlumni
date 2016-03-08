@@ -25,7 +25,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('frontend.home');
+        $title = "Home";
+        return view('frontend.home')->with('title',$title);
     }
 
     public function sendEmail(){
@@ -44,5 +45,16 @@ class HomeController extends Controller
         return "Your email has been sent successfully";
     }
 
+    public function member()
+    {
+        $title = "Member";
+        return view('frontend.member')->with('title',$title);
+    }
+
+    public function article()
+    {
+        $title = "Article";
+        return view('frontend.article')->with('title',$title);
+    }
 
 }

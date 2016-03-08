@@ -34,15 +34,15 @@
 </head>
 
 <body id="page-top">
-    <script src="{{ URL::asset('js/perfect-scrollbar.jquery.js')}}"></script>
-    
-
     @include('frontend.template.header')
 
     @yield('toppage')
 
     @yield('content')
 
+    <ul class="scroll-top">
+      <li><a href="#"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+    </ul>
     @include('frontend.template.footer')
 
     <!-- jQuery -->
@@ -59,7 +59,22 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ URL::asset('js/creative.js')}}"></script>
+    <script>
+        $('.scroll-top').click(function(){
+          $('body','html').animate({scrollTop:0},1000);
+        })
 
+        $(window).scroll( function(){
+            windows = $(window).height();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            if( bottom_of_window > windows + 100 ){
+                $(".scroll-top").animate({'opacity':'1'},0);
+            } else {
+                $(".scroll-top").animate({'opacity':'0'},0);
+            }
+        });
+    </script>
     @yield('jsfooter')
 </body>
 
