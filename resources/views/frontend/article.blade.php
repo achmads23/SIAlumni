@@ -77,90 +77,100 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-9">
-                <div class="col-lg-12 col-md-12 text-center">
-                    <div class="panel panel-default">
-                        <div class="panel-body disablepadding divarticle">
-                            <img src="img/article/1.jpg" class="img-responsive photoarticle" alt="">
-                        </div>
-                        <div class="panel-heading">
-                            <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
-                        </div>
-                        <div class="panel-body">
-                            <p class="bodyarticle">Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                            <a href="#" class="btn btn-default">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 text-center">
-                    <div class="panel panel-default">
-                        <div class="panel-body disablepadding divarticle">
-                            <img src="img/article/1.jpg" class="img-responsive photoarticle" alt="">
-                        </div>
-                        <div class="panel-heading">
-                            <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
-                        </div>
-                        <div class="panel-body">
-                            <p class="bodyarticle">Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                            <a href="#" class="btn btn-default">Read More</a>
+            <div class="col-md-9 disablepaddingleft">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 text-center">
+                        <div class="panel panel-default">
+                            <div class="panel-body disablepadding divarticle">
+                                <img src="img/article/1.jpg" class="img-responsive photoarticle" alt="">
+                            </div>
+                            <div class="panel-heading">
+                                <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                            </div>
+                            <div class="panel-body">
+                                <p class="bodyarticle">Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                                <a href="#" class="btn btn-default">Read More</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-12 col-md-12 text-center">
-                    <div class="panel panel-default">
-                        <div class="panel-body disablepadding divarticle">
-                            <img src="img/article/1.jpg" class="img-responsive photoarticle" alt="">
+                    <div class="col-lg-12 col-md-12 text-center">
+                        <div class="panel panel-default">
+                            <div class="panel-body disablepadding divarticle">
+                                <img src="img/article/1.jpg" class="img-responsive photoarticle" alt="">
+                            </div>
+                            <div class="panel-heading">
+                                <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                            </div>
+                            <div class="panel-body">
+                                <p class="bodyarticle">Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                                <a href="#" class="btn btn-default">Read More</a>
+                            </div>
                         </div>
-                        <div class="panel-heading">
-                            <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
-                        </div>
-                        <div class="panel-body">
-                            <p class="bodyarticle">Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                            <a href="#" class="btn btn-default">Read More</a>
+                    </div>
+                    <div class="col-lg-12 col-md-12 text-center">
+                        <div class="panel panel-default">
+                            <div class="panel-body disablepadding divarticle">
+                                <img src="img/article/1.jpg" class="img-responsive photoarticle" alt="">
+                            </div>
+                            <div class="panel-heading">
+                                <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                            </div>
+                            <div class="panel-body">
+                                <p class="bodyarticle">Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                                <a href="#" class="btn btn-default">Read More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="col-lg-12 col-md-12 text-center">
-                    <div class="panel panel-default">
-                        <div class="panel-body disablepadding divarticle">
-                            <img src="img/article/1.jpg" class="img-responsive photoarticle" alt="">
-                        </div>
-                        <div class="panel-heading">
-                            <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
-                        </div>
-                        <div class="panel-body">
-                            <p class="bodyarticle">Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                            <a href="#" class="btn btn-default">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 col-md-12 text-center">
-                    <div class="panel panel-default">
-                        <div class="panel-body disablepadding divarticle">
-                            <img src="img/article/1.jpg" class="img-responsive photoarticle" alt="">
-                        </div>
-                        <div class="panel-heading">
-                            <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
-                        </div>
-                        <div class="panel-body">
-                            <p class="bodyarticle">Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                            <a href="#" class="btn btn-default">Read More</a>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 text-center">
+                        <div class="row">
+                            <div class="panel panel-default">
+                                <div class="panel-body disablepadding divarticle">
+                                    <img src="img/article/1.jpg" class="img-responsive photoarticle" alt="">
+                                </div>
+                                <div class="panel-heading">
+                                    <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                                </div>
+                                <div class="panel-body">
+                                    <p class="bodyarticle">Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                                    <a href="#" class="btn btn-default">Read More</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-12 col-md-12 text-center">
-                    <div class="panel panel-default">
-                        <div class="panel-body disablepadding divarticle">
-                            <img src="img/article/1.jpg" class="img-responsive photoarticle" alt="">
+                    <div class="col-lg-12 col-md-12 text-center">
+                        <div class="row">
+                            <div class="panel panel-default">
+                                <div class="panel-body disablepadding divarticle">
+                                    <img src="img/article/1.jpg" class="img-responsive photoarticle" alt="">
+                                </div>
+                                <div class="panel-heading">
+                                    <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                                </div>
+                                <div class="panel-body">
+                                    <p class="bodyarticle">Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                                    <a href="#" class="btn btn-default">Read More</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="panel-heading">
-                            <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
-                        </div>
-                        <div class="panel-body">
-                            <p class="bodyarticle">Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
-                            <a href="#" class="btn btn-default">Read More</a>
+                    </div>
+                    <div class="col-lg-12 col-md-12 text-center">
+                        <div class="row">
+                            <div class="panel panel-default">
+                                <div class="panel-body disablepadding divarticle">
+                                    <img src="img/article/1.jpg" class="img-responsive photoarticle" alt="">
+                                </div>
+                                <div class="panel-heading">
+                                    <h4><i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0</h4>
+                                </div>
+                                <div class="panel-body">
+                                    <p class="bodyarticle">Lorem ipsum dolor sit amet, consectetur adipisicing  elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                                    <a href="#" class="btn btn-default">Read More</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
